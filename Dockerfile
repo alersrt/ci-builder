@@ -1,5 +1,5 @@
 FROM docker:dind
-RUN apk --update --no-cache --add \ 
+RUN apk --update --no-cache add \ 
     tini \
     ca-certificates \ 
     bash \
