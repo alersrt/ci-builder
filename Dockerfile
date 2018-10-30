@@ -1,4 +1,4 @@
-FROM docker:dind
+FROM docker
 RUN apk --update --no-cache add \ 
     tini \
     ca-certificates \ 
