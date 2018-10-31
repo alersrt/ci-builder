@@ -7,6 +7,11 @@ RUN apk --update --no-cache add \
     make \
     curl \ 
     rsync \ 
+    python \
+    python-dev \
+    py-pip \
+    build-base \
+    && pip install docker-compose \
     && update-ca-certificates
 
 COPY Dockerfile /Dockerfile
