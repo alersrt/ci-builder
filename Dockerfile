@@ -1,6 +1,7 @@
 FROM docker
 RUN apk --update --no-cache add \ 
     tini \
+    openssh-client \
     ca-certificates \ 
     bash \
     git \
