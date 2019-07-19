@@ -12,6 +12,7 @@ RUN apk --update --no-cache add \
     python-dev \
     py-pip \
     build-base \
+    protobuf \
     && pip install docker-compose \
     && update-ca-certificates
 
