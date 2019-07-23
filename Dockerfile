@@ -17,6 +17,7 @@ RUN apk --update --no-cache add \
     gcc \
     libc-dev \
     openssl-dev \
+    util-linux \
     && pip install docker-compose \
     && update-ca-certificates
 

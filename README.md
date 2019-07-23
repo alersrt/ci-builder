@@ -9,3 +9,4 @@ Docker image with build utils. There was added the next packages:
 - `ca-certificates`
 - `python`
 - `protobuf`
+- `util-linux`
