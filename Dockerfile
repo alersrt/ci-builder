@@ -4,7 +4,7 @@ RUN apk --update --no-cache add \
     openssh-client \
     ca-certificates \ 
     bash \
-    rust \
+    cargo \
     git \
     make \
     curl \
