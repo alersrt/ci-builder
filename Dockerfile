@@ -9,8 +9,8 @@ RUN apk --update --no-cache add \
     curl \
     jq \
     rsync \ 
-    python \
-    python-dev \
+    python3 \
+    python3-dev \
     py-pip \
     build-base \
     protobuf \
