@@ -6,7 +6,8 @@ RUN apk --update --no-cache add \
     bash \
     git \
     make \
-    curl \ 
+    curl \
+    jq \
     rsync \ 
     python \
     python-dev \
