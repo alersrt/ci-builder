@@ -1,15 +1,15 @@
 FROM docker
-RUN apk --update --no-cache add \ 
+RUN apk --update --no-cache add \
     tini \
     openssh-client \
-    ca-certificates \ 
+    ca-certificates \
     bash \
     cargo \
     git \
     make \
     curl \
     jq \
-    rsync \ 
+    rsync \
     python3 \
     python3-dev \
     py-pip \
